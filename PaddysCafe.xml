@@ -6,6 +6,18 @@
          <entree>
              <item>Pepsi</item>
              <price>2.00</price>
+         </entree>    
+         <entree>
+             <item>Coke</item>
+             <price>3.00</price>
+         </entree>    
+         <entree>
+             <item>Club Orange</item>
+             <price>2.50</price>
+         </entree>    
+         <entree>
+            <item>Mineral Water</item>
+             <price>1.50</price>     
          </entree>
     </section>
 </cafemenu>
