@@ -20,4 +20,22 @@
              <price>1.50</price>     
          </entree>
     </section>
+    <section name="Breakfast">
+         <entree>
+             <item>Irish Breakfast</item>
+             <price>8.00</price>
+         </entree>    
+         <entree>
+             <item>American Breakfast</item>
+             <price>6.00</price>
+         </entree>    
+         <entree>
+             <item>Medium Late + Ham/Cheese toasted Sandwitch</item>
+             <price>4.50</price>
+         </entree>    
+         <entree>
+            <item>Hot Chocolate + 2 creissant</item>
+             <price>3.50</price>     
+         </entree>
+    </section>
 </cafemenu>
