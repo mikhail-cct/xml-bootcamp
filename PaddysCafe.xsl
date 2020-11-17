@@ -149,23 +149,23 @@
                     <tbody>
                         <xsl:for-each select="/cafemenu/section">
                             <tr>
-                                <td colspan="3">
-                                    <xsl:value-of select="." />
-                                </td>
+                                <th colspan="3">
+                                    <xsl:value-of select="@name"/>
+                                </th>
                             </tr>
                             <xsl:for-each select="entree">
                                 <tr>
                                     <xsl:attribute name="vegetarian">
-                                        <xsl:value-of select="." />
+                                        <xsl:value-of select="boolean(@vegetarian)" />
                                     </xsl:attribute>
                                     <td align="center">
                                         <input name="item0" type="checkbox" />
                                     </td>
                                     <td>
-                                        <xsl:value-of select="." />
+                                        <xsl:value-of select="item"/>
                                     </td>
                                     <td align="right">
-                                        <xsl:value-of select="." />
+                                        <xsl:value-of select="price" />
                                     </td>
                                 </tr>
                             </xsl:for-each>
@@ -176,7 +176,9 @@
                     <p>
                         <input type="button" name="btnCalcBill" value="Calculate Bill" id="calcBill" />
                 Total: €
-                <input type="text" name="txtBillAmt" /><input type="checkbox" name="cbOpts" value="isVeg" id="showVeg" /><label for="showVeg">Highlight Vegetarian Meals</label></p>
+                <input type="text" name="txtBillAmt" />
+                <input type="checkbox" name="cbOpts" value="isVeg" id="showVeg" />
+                <label for="showVeg">Highlight Vegetarian Meals</label></p>
                 </form>
             </body>
         </html>
