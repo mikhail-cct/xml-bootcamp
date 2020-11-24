@@ -150,13 +150,13 @@
                         <xsl:for-each select="/cafemenu/section">
                             <tr>
                                 <td colspan="3">
-                                    <xsl:value-of select="." />
+                                    <xsl:value-of select="@name" />
                                 </td>
                             </tr>
                             <xsl:for-each select="entree">
                                 <tr>
                                     <xsl:attribute name="vegetarian">
-                                        <xsl:value-of select="." />
+                                        <xsl:value-of select="@vegetarian" />
                                     </xsl:attribute>
                                     <td align="center">
                                         <input name="item0" type="checkbox" />
