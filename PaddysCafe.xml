@@ -18,6 +18,7 @@
     </section>
 
      <section name="Breakfast">
+<<<<<<< HEAD
          <entree>
              <item>Two Eggs, any style</item>
              <price>4.99</price>
@@ -70,4 +71,125 @@
          </entree>                  
     </section>   
 
+=======
+         <entree>
+             <item>Two Eggs, any style</item>
+             <price>4.99</price>
+         </entree>
+         <entree>
+             <item>Paddys's Famous Peppers and Eggs</item>
+             <price>8.29</price>
+         </entree>
+          <entree vegetarian="true">
+             <item>Bowl of fruit</item>
+             <price>6.99</price>
+         </entree>
+         <entree vegetarian="true">
+             <item>French toast</item>
+             <price>5.25</price>
+         </entree>
+         <entree>
+             <item>Croissant</item>
+             <price>3.99</price>
+         </entree>         
+        </section>
+    
+     <section name="Lunch">
+         <entree>
+             <item>Grilled Chicken Sandwich</item>
+             <price>7.99</price>
+         </entree>
+         <entree>
+             <item>Tuna Melt</item>
+             <price>6.99</price>
+         </entree>
+         <entree vegetarian="true">
+             <item>Pasta Salad</item>
+             <price>7.39</price>
+         </entree>                  
+    </section>
+<<<<<<< HEAD
+    
+     <section name="Dinner">
+         <entree>
+             <item>Ribeye Steak</item>
+             <price>19.99</price>
+         </entree>
+         <entree>
+             <item>Chilean Sea Bass</item>
+             <price>12.99</price>
+         </entree>
+         <entree vegetarian="true">
+             <item>Linguini with Grilled Porcini Mushroom</item>
+             <price>7.79</price>
+         </entree>                  
+    </section>   
+
+=======
+    <section name="Side dishes">
+        <entree vegetarian="true">
+            <item>Potato Salad</item>
+            <price> 4.95</price>
+        </entree>
+        <entree>
+            <item> Paddy's French Fries</item>
+            <price> 7.50</price>
+        </entree>
+        <entree>
+            <item>Huevos Rancheros</item>
+            <price> 8.50</price>
+        </entree>
+    </section>
+    <section name= "Breackfast">
+        <entree> 
+            <item> Two Eggs, any style</item>
+            <price>4.99</price>
+        </entree>
+        <entree> 
+            <item> Paddy's Famous Peppers and Eggs</item>
+            <price>8.29</price>
+        </entree>
+        <entree vgetarian ="true"> 
+            <item> Bowl of fruit</item>
+            <price> 6.99</price>
+        </entree>
+        <entree vegetarian = "true"> 
+            <item> French toast</item>
+            <price> 5.25</price>
+        </entree>
+        <entree> 
+            <item> Croissant</item>
+            <price>3.99</price>
+        </entree>
+    </section>
+    <section name="Lunch">
+        <entree> 
+            <item>Grilled Chicken Sandwich</item>
+            <price>7.99</price>
+        </entree>
+        <entree> 
+            <item> Tuna Melt</item>
+            <price>6.99</price>
+        </entree>
+        <entree vegetarian ="true"> 
+            <item> Pasta Salad</item>
+            <price>7.39</price>
+        </entree>        
+    </section>
+    <section name="Dinner">
+        <entree>
+            <item>Ribeye Steak</item>
+            <price>19.99</price>
+        </entree>
+        <entree> 
+            <item> Chilean Sea Bass</item>
+            <price>12.99</price>
+        </entree>
+        <entree vegetarian ="true"> 
+            <item> Linguini with Grilled Porcini Mushroom</item>
+            <price>4.99</price>
+        </entree>
+    </section>
+>>>>>>> 062be05beb441b314151560bc94aaf38a373bf25
+>>>>>>> 9c218721ef7e37683fc56ea68220ca340b5974e7
 </cafemenu>
