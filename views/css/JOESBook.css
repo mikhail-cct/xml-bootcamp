@@ -5,6 +5,11 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  background-image: url("https://t3.ftcdn.net/jpg/01/38/57/38/240_F_138573824_W4VSqVz02lHfBwxvgkLJwcng1m9P3n7P.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 .footer {
   position: absolute;
