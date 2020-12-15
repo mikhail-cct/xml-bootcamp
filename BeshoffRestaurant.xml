@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cafemenu>
+  <section name="Fish">
+    <entree vegetarian="true">
+      <item>Traditional Fresh Cod</item>
+      <price>5.95</price>
+    </entree>
+    <entree vegetarian="true">
+      <item>Fresh Haddock</item>
+      <price>5.50</price>
+    </entree>
+    <entree vegetarian="true">
+      <item>Smoked Fish</item>
+      <price>5.50</price>
+    </entree>
+    <entree vegetarian="true">
+      <item>Lemon Sole</item>
+      <price>5.75</price>
+    </entree>
+    <entree>
+      <item vegetarian="true">Salmon</item>
+      <price>7.00</price>
+    </entree>
+  </section>
+  <section name="Chicken">
+    <entree>
+      <item>Chicken Tenders</item>
+      <price>4.50</price>
+    </entree>
+    <entree>
+      <item>Chicken Breast</item>
+      <price>4.65</price>
+    </entree>
+  </section>
+  <section name="Burguers">
+    <entree>
+      <item>Chicken Fillet Burguer</item>
+      <price>3.45</price>
+    </entree>
+    <entree>
+      <item>Vegetarian Burger</item>
+      <price>3.85</price>
+    </entree>
+    <entree>
+      <item>Cod Burguer</item>
+      <price>3.50</price>
+    </entree>
+  </section>
+  <section name="Sides">
+    <entree>
+      <item>Fresh Chips</item>
+      <price>2.95</price>
+    </entree>
+    <entree>
+      <item>Side Salad</item>
+      <price>2.95</price>
+    </entree>
+    <entree>
+      <item>Onion Rings</item>
+      <price>2.50</price>
+    </entree>
+    <entree>
+      <item>Coleslaw</item>
+      <price>2.95</price>
+    </entree>
+    <entree>
+      <item>Mushy Peas</item>
+      <price>1.65</price>
+    </entree>
+    <entree>
+      <item>Beans</item>
+      <price>1.65</price>
+    </entree>
+    <entree>
+      <item>Side Salad</item>
+      <price>7.79</price>
+    </entree>
+  </section>
+</cafemenu>
