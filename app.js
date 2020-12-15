@@ -42,15 +42,15 @@ router.get('/get/html', function(req, res) {
 
     res.writeHead(200, {'Content-Type': 'text/html'}); //We are responding to the client that the content served back is HTML and the it exists (code 200)
 
-    var xml = fs.readFileSync('JOESBook.xml', 'utf8'); //We are reading in the XML file
-    var xsl = fs.readFileSync('JOESBook.xsl', 'utf8'); //We are reading in the XSL file
+    var xml = fs.readFileSync('JOEsBook.xml', 'utf8'); //We are reading in the XML file
+    var xsl = fs.readFileSync('JOEsBook.xsl', 'utf8'); //We are reading in the XSL file
 
     var doc = xmlParse(xml); //Parsing our XML file
     var stylesheet = xmlParse(xsl); //Parsing our XSL file
 
     var result = xsltProcess(doc, stylesheet); //This does our XSL Transformation
 
-    xmlFileToJs('JOESBook.xml', function(err, result) {
+    xmlFileToJs('JOEsBook.xml', function(err, result) {
         if (err) throw (err);
         console.log(result);
     });
@@ -64,20 +64,46 @@ router.post('/post/json', function (req, res) {
 
         console.log(obj)
 
-        xmlFileToJs('JOESBook.xml', function (err, result) {
+        xmlFileToJs('JOEsBook.xml', function (err, result) {
             if (err) throw (err);
             
             result.bookmenu.section[obj.sec_n].entree.push({'item': obj.item, 'price': obj.price});
 
             console.log(JSON.stringify(result, null, "  "));
 
-            jsToXmlFile('JOESBook.xml', result, function(err){
+            jsToXmlFile('JOEsBook.xml', result, function(err){
               if (err) console.log(err);
             });
         });
     };
 
     appendJSON(req.body);
+
+    res.redirect('back');
+
+});
+
+router.post('/post/delete', function (req, res) {
+
+    function deleteJSON(obj) {
+
+        console.log(obj)
+
+        xmlFileToJs('JOEsBook.xml', function (err, result) {
+            if (err) throw (err);
+            
+            delete result.bookmenu.section[obj.section].entree[obj.entree];
+           
+
+            console.log(JSON.stringify(result, null, "  "));
+
+            jsToXmlFile('JOEsBook.xml', result, function(err){
+              if (err) console.log(err);
+            });
+        });
+    };
+
+    deleteJSON(req.body);
 
     res.redirect('back');
 
