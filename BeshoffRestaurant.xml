@@ -1,66 +1,78 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <cafemenu>
-  <section name="Side Dishes">
+  <section name="Fish">
     <entree vegetarian="true">
-      <item>Potato salad</item>
-      <price>4.95</price>
+      <item>Traditional Fresh Cod</item>
+      <price>5.95</price>
     </entree>
     <entree>
-      <item>Paddy's French Fries</item>
-      <price>7.50</price>
+      <item>Fresh Haddock</item>
+      <price>5.50</price>
     </entree>
     <entree>
-      <item>Huevos Rancheros</item>
-      <price>8.50</price>
+      <item>Smoked Fish</item>
+      <price>5.50</price>
+    </entree>
+    <entree>
+      <item>Lemon Sole</item>
+      <price>5.75</price>
+    </entree>
+    <entree>
+      <item>Salmon</item>
+      <price>7.00</price>
     </entree>
   </section>
-  <section name="Breakfast">
+  <section name="Chicken">
     <entree>
-      <item>Two Eggs, any style</item>
-      <price>4.99</price>
-    </entree>
-    <entree>
-      <item>Paddys's Famous Peppers and Eggs</item>
-      <price>8.29</price>
-    </entree>
-    <entree vegetarian="true">
-      <item>Bowl of fruit</item>
-      <price>6.99</price>
-    </entree>
-    <entree vegetarian="true">
-      <item>French toast</item>
-      <price>5.25</price>
+      <item>Chicken Tenders</item>
+      <price>4.50</price>
     </entree>
     <entree>
-      <item>Croissant</item>
-      <price>3.99</price>
+      <item>Chicken Breast</item>
+      <price>4.65</price>
     </entree>
   </section>
-  <section name="Lunch">
+  <section name="Burguers">
     <entree>
-      <item>Grilled Chicken Sandwich</item>
-      <price>7.99</price>
+      <item>Chicken Fillet Burguer</item>
+      <price>3.45</price>
     </entree>
     <entree>
-      <item>Tuna Melt</item>
-      <price>6.99</price>
+      <item>Vegetarian Burger</item>
+      <price>3.85</price>
     </entree>
     <entree vegetarian="true">
-      <item>Pasta Salad</item>
-      <price>7.39</price>
+      <item>Cod Burguer</item>
+      <price>3.50</price>
     </entree>
   </section>
-  <section name="Dinner">
+  <section name="Sides">
     <entree>
-      <item>Ribeye Steak</item>
-      <price>19.99</price>
+      <item>Fresh Chips</item>
+      <price>2.95</price>
     </entree>
     <entree>
-      <item>Chilean Sea Bass</item>
-      <price>12.99</price>
+      <item>Side Salad</item>
+      <price>2.95</price>
+    </entree>
+    <entree>
+      <item>Onion Rings</item>
+      <price>2.50</price>
+    </entree>
+    <entree>
+      <item>Coleslaw</item>
+      <price>2.95</price>
+    </entree>
+    <entree>
+      <item>Mushy Peas</item>
+      <price>1.65</price>
+    </entree>
+    <entree>
+      <item>Beans</item>
+      <price>1.65</price>
     </entree>
     <entree vegetarian="true">
-      <item>Linguini with Grilled Porcini Mushroom</item>
+      <item>Side Salad</item>
       <price>7.79</price>
     </entree>
   </section>
