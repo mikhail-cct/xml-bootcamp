@@ -10,6 +10,8 @@
                             <th>Select</th>
                             <th>Item</th>
                             <th>Price</th>
+                            <th>Author</th>>
+                            <th>Year</th>>
                         </tr>
                     </thead>
                     <tbody>
@@ -20,19 +22,25 @@
                                 </td>
                             </tr>
                             <xsl:for-each select="entree">
-                            
+                            // this allow to add the elements to the XML file  
                                 <tr id="{position()}">
                                     <xsl:attribute name="fiction">
-                                        <xsl:value-of select="boolean(@fiction)" />
+                                        <xsl:value-of select="boolean(@fiction)" />// to confirm if it true of false 
                                     </xsl:attribute>
                                     <td align="center">
-                                        <input name="item0" type="checkbox" />
+                                        <input name="item0" type="checkbox" />// for calculate the value of total 
                                     </td>
                                     <td>
                                         <xsl:value-of select="item" />
                                     </td>
                                     <td align="right">
                                         <xsl:value-of select="price" />
+                                    </td>
+                                     <td align="right">
+                                        <xsl:value-of select="author" />
+                                    </td>
+                                     <td align="right">
+                                        <xsl:value-of select="year" />
                                     </td>
                                 </tr>
                             </xsl:for-each>

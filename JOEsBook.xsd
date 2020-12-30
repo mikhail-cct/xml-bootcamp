@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema xmlns:xsl="http://www.w3.org/1999/XSL/Transform" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="schema1.xsd" />
+  <xs:element name="stylesheet">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="template">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element ref="table" />
+            </xs:sequence>
+            <xs:attribute name="match" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="version" type="xs:decimal" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="for-each">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="tr" />
+        <xs:element name="for-each">
+          <xs:complexType mixed="true">
+            <xs:sequence>
+              <xs:element ref="tr" />
+            </xs:sequence>
+            <xs:attribute name="select" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="select" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="value-of">
+    <xs:complexType>
+      <xs:attribute name="select" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="attribute">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element name="value-of">
+          <xs:complexType>
+            <xs:attribute name="select" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="name" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -67,6 +67,7 @@
       </select>
       <input class="form-controp mt-3" type="text" name="item" placeholder="Item">
       <input class="form-controp mt-3" type="text" name="price" placeholder="Price">
+
       <button type="submit" class="btn btn-primary btn-block mt-3">Submit</button>
       </div>
       </form>
@@ -94,7 +95,7 @@
                 document.forms[1].txtBillAmt.value = calculateBill('menuTable');
             });
             document.querySelector("#showVeg").addEventListener("click", function() {
-                highlightVegetarian('menuTable', this.checked);
+                highlightFiction('menuTable', this.checked);
             });
         });
     </script>
