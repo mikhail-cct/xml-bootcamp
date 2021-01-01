@@ -4,7 +4,7 @@ var http = require('http'), //This module provides the HTTP server functionaliti
     fs = require('fs'), //This module allows to work witht the file system: read and write files back
     xmlParse = require('xslt-processor').xmlParse, //This module allows us to work with XML files
     xsltProcess = require('xslt-processor').xsltProcess; //The same module allows us to utilise XSL Transformations
-var router = express(); //We set our routing to be handled by Express
+    var router = express(); //We set our routing to be handled by Express
 var server = http.createServer(router); //This is where our server gets created
 router.get('/', function(req, res) {
     res.writeHead(200, {'Content-Type': 'text/html'}); //We are responding to the client that the content served back is HTML and the it exists (code 200)
