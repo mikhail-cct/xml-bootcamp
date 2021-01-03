@@ -32,15 +32,6 @@
               <span class="sr-only">(current)</span>
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
         </ul>
       </div>
     </div>
@@ -65,8 +56,9 @@
         <option value="2">Thrillers</option>
          <option value="3">Biographies</option>
       </select>
-      <input class="form-controp mt-3" type="text" name="item" placeholder="Item">
-      <input class="form-controp mt-3" type="text" name="price" placeholder="Price">
+      <input class="form-controp mt-3" type="text" name="item" placeholder="Item" required>
+      <input class="form-controp mt-3" type="number" name="price" placeholder="Price" required>
+      <input pattern="\d*" title="Numbers only, please.">
 
       <button type="submit" class="btn btn-primary btn-block mt-3">Submit</button>
       </div>
@@ -87,6 +79,7 @@
   <script src="js/jquery.slim.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/table.js"></script>
+  <script src="js/dynamictable.js"></script>
 
     <script>//code got from Mikhail created in class 
         window.addEventListener("load", function() {
@@ -94,7 +87,7 @@
             document.querySelector("#calcBill").addEventListener("click", function() {
                 document.forms[1].txtBillAmt.value = calculateBill('menuTable');
             });
-            document.querySelector("#showVeg").addEventListener("click", function() {
+            document.querySelector("#showFic").addEventListener("click", function() {
                 highlightFiction('menuTable', this.checked);
             });
         });
