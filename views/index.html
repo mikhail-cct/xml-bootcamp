@@ -25,6 +25,7 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
@@ -46,8 +47,7 @@
       </div>
       <div id="results" class="col-lg-8 order-2 mb-5">
       <div class="col-lg-4 order-1">
-      <form encrytpe="application/json" action="/post/json" method="post">
-      <form>  
+      <form encrytpe="application/json" action="/post/json" method="post">  
       <div class="from-group">
       
       <select class="form-control" name="sec_n">
@@ -56,18 +56,31 @@
         <option value="2">Thrillers</option>
          <option value="3">Biographies</option>
       </select>
-      <input class="form-controp mt-3" type="text" name="item" placeholder="Item" required>
-      <input class="form-controp mt-3" type="number" name="price" placeholder="Price" required>
-       <input class="form-controp mt-3" type="text" name="author" placeholder="Author" required>
-      <input pattern="\d*" title="Numbers only, please.">
+      <input class="form-controp mt-3" type="text" name="item" placeholder="Item">
+      <input class="form-controp mt-3" type="number" name="price" placeholder="Price">
 
       <button type="submit" class="btn btn-primary btn-block mt-3">Submit</button>
       </div>
       </form>
 
       <button id ="delete" class="btn btn-danger btn-block mt-3">Delete</button>
-      <p class="lead">To delete an entrees,click the row first!</p>
-      
+      <p class="text-muted text-center">To delete an entrees,click the row first!</p>
+      <form>
+       <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">&euro;</span>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Total" name="txtBillAmt">
+                        <div class="input-group-append">
+                            <div class="input-group-text">
+                                <input type="checkbox" id="showVeg" aria-label="Checkbox for following text input">
+                            </div>
+                        </div>
+                        <input class="btn btn-block btn-secondary mt-2" type="button" name="btnCalcBill"
+                            value="Calculate Bill" id="calcBill">
+                    </div>
+
+      </form>
       </div>
       </div>
     </div>
