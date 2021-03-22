@@ -11,7 +11,7 @@
                             <th>Item</th>
                             <th>Price</th>
                             <th>Author</th>>
-                            <th>Year</th>>
+                           
                         </tr>
                     </thead>
                     <tbody>
@@ -39,9 +39,7 @@
                                      <td align="right">
                                         <xsl:value-of select="author" />
                                     </td>
-                                     <td align="right">
-                                        <xsl:value-of select="year" />
-                                    </td>
+                                   
                                 </tr>
                             </xsl:for-each>
                         </xsl:for-each>

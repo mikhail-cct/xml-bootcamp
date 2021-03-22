@@ -7,19 +7,19 @@
              <item>Peter Pan</item>
              <price>11.99</price> 
                <author>J. M. Barrie</author>
-             <year>1904</year>            
+                     
          </entree>
          <entree fiction="true">
              <item>Alice in wanderland</item>
              <price>7.50</price>
              <author>Lewis Carroll</author>
-             <year>1865</year>
+             
          </entree>        
          <entree fiction="true">
              <item>Harry Potter and the goblet of fire </item>
              <price>12.99</price>
               <author>J. K. Rowling</author>
-             <year>2000</year>
+            
          </entree>            
     </section>
 
@@ -28,31 +28,31 @@
              <item>The woman in black</item>
              <price>15.99</price>
               <author>Susan Hill</author>
-             <year>1983</year>
+             
          </entree>
          <entree fiction="true">
              <item>Ring </item>
              <price>8.29</price>
               <author>Koji Suzuki</author>
-             <year>1991</year>
+           
          </entree>
           <entree fiction="true">
              <item>The Devil in Silve</item>
              <price>19.99</price>
               <author>Victor LaValle</author>
-             <year>2013</year>
+             
          </entree>
          <entree fiction="true">
              <item>Bird Box</item>
              <price>17.25</price>
               <author>Josh Malerman</author>
-             <year>2014</year>
+          
          </entree>
          <entree fiction="true">
              <item>John Dies at the End</item>
              <price>11.99</price>
               <author>David Wong</author>
-             <year>2004</year>
+           
          </entree>         
         </section>
     
@@ -61,19 +61,19 @@
              <item>Nine Perfect Stranges</item>
              <price>9.99</price>
               <author>Liane Moriarty</author>
-             <year>2018</year>
+             
          </entree>
          <entree fiction="true">
              <item>Stillhouse Lake</item>
              <price>13.99</price>
               <author> Rachel Caine</author>
-             <year>2018</year>
+          
          </entree>
          <entree fiction="true">
              <item>In a Dark, Dark wood</item>
              <price>7.39</price>
               <author>Ruth Ware </author>
-             <year>2015</year>
+          
          </entree>                  
     </section>
     
@@ -82,25 +82,25 @@
              <item>Freddie Mercury: A Life, In His Own Words</item>
              <price>19.99</price>
               <author>Greg Brooks (Editor), Simon Lupton (Editor), Jer Bulsara (Foreword) </author>
-             <year>2009</year>
+             
          </entree>
          <entree>
              <item>A Promised Land</item>
              <price>59.99</price>
               <author> Barack Obama</author>
-             <year>2009</year>
+           
          </entree>
          <entree >
              <item>The Moscow Whisper: a high octane spy thriller</item>
              <price>9.79</price>
               <author>Michael Jenkins</author>
-             <year>2020</year>
+             
          </entree>   
            <entree >
              <item>The Power of Adrienne Rich: A Biography</item>
              <price>12.79</price>
               <author>Adrienne Rich </author>
-             <year>2020</year>
+         
          </entree>                
     </section>   
 
